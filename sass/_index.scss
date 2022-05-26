@@ -1,0 +1,20 @@
+
+/* INDEX */
+main .home__mainContainer .carouselslide {
+    flex-direction: row;
+    align-items: center; 
+}
+
+main .home__mainContainer .ul.slider li {
+    flex-direction: row;
+    height: 30%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border: solid black;
+    justify-content: space-between;
+    padding-top: 30vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center; }
+/* fin index */

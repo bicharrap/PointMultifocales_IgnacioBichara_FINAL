@@ -1,0 +1,42 @@
+
+
+/* Comienzo ubicacion */
+.main_card{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+    }
+    .contenedor
+    {   
+        display: flex;
+        width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        height: 500px;
+    }
+    
+    .ubicacion{
+        background: #9a9eab;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right: 10px;
+    }
+    
+    .p-horario {
+    color: black;
+    font-weight: bold;
+        }
+            
+    .mapa{
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+        }
+    
+    /* fin ubicacion */

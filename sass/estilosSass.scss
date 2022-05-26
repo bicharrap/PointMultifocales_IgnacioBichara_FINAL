@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth; }
+    a{
+        text-decoration: solid;
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 20px;
+      }
+    
+      p{
+        text-decoration: solid;
+        color: whitesmoke;
+    }
+    
+    H1{
+        font-family: 'Bebas Neue',cursive;
+        font-family: 'Koulen',cursive;
+    }
+    
+
+/* comentario sass */
+
+
+@import "header.scss";
+@import "_index.scss";
+@import "_ubicacion.scss";
+@import "_nosotros.scss";
+@import "_formulario.scss";
+@import "_productos.scss";
+@import "_botones.scss";
+@import "_footer.scss";

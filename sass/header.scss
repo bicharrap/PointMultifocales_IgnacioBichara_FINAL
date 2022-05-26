@@ -1,0 +1,45 @@
+
+/* Comienzo header */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); }
+
+        header nav {
+            width: 50%;
+            margin-right: 20px; }
+    
+            header .header__logo {
+            height: 20rem;
+            width: 20rem;
+            }
+            
+            header .header__logo img {
+            width: 100%;
+            }
+    
+        header .header__menu {
+            width: 100%; }
+    
+        header .header__menu ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            width: 100%; }
+    
+        header .header__menu ul li {
+            text-transform: uppercase;
+            font-weight: 600;
+            border-radius: 5px;
+            padding: 0.5rem;
+            display: inline-block;
+            margin: 0 0.5rem;
+            animation: bounce;
+            animation-duration: 2s; }
+    
+
+    /* FIN HEADER */
